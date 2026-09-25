@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>С Днём Рождения! 🎉</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 40%, #a1c4fd 100%);
+    background-attachment: fixed;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    padding: 40px 25px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #e91e63;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+  }
+
+  .photos img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .photos img:hover {
+    transform: scale(1.08) rotate(2deg);
+  }
+
+  .wishes {
+    text-align: left;
+    background: #fff8e1;
+    border-left: 6px solid #ffb300;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin: 30px 0;
+    font-size: 1.1em;
+    line-height: 1.8;
+  }
+
+  .wishes h2 {
+    color: #ff6f00;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .wishes ul {
+    list-style: none;
+  }
+
+  .wishes li {
+    padding: 8px 0;
+    padding-left: 30px;
+    position: relative;
+  }
+
+  .wishes li::before {
+    content: "🎁";
+    position: absolute;
+    left: 0;
+  }
+
+  .footer {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #888;
+    font-style: italic;
+  }
+
+  .hearts {
+    font-size: 2em;
+    margin-top: 15px;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 1.8em; }
+    .photos img { width: 140px; height: 140px; }
+    .container { padding: 25px 15px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>С Днём Рождения, [Дарья Андреевна, не Олеговна]! 🎂</h1>
+    <p class="subtitle">Сегодня твой день, и этот сайт — только для тебя 💖</p>
+
+    <div class="photos">
+      <img src="photo1.jpg" alt="Наше фото 1">
+      <img src="photo2.jpg" alt="Наше фото 2">
+      <img src="photo3.jpg" alt="Наше фото 3">
+    </div>
+
+    <div class="wishes">
+      <h2>Шуточные пожелания 🎈</h2>
+      <ul>
+        <li>Желаю, чтобы зарплата приходила быстрее, чем ты успеваешь её потратить!</li>
+        <li>Пусть твой телефон всегда будет заряжен, а Wi-Fi — без пароля!</li>
+        <li>Желаю, чтобы все твои "завтра начну" случались уже сегодня!</li>
+        <li>Пусть в жизни будет столько счастья, сколько не бывает в рекламе!</li>
+        <li>Желаю, чтобы ты худела от тортиков и умнела от сериалов!</li>
+        <li>Пусть все проблемы решаются так же быстро, как ты говоришь "я только на минуточку"!</li>
+        <li>Желаю тебе найти вторую половинку... пиццы, конечно! 🍕</li>
+        <li>Пусть удача преследует тебя, как кредиторы — настойчиво и с улыбкой!</li>
+      </ul>
+    </div>
+
+    <div class="wishes" style="background:#e8f5e9; border-left-color:#4caf50;">
+      <h2 style="color:#2e7d32;">А если серьёзно 💚</h2>
+      <p>Ты — невероятный человек. Спасибо, что ты есть. Пусть этот год принесёт тебе всё, о чём ты мечтаешь, и даже больше. Оставайся такой же классной, весёлой и настоящей!</p>
+    </div>
+
+    <p class="footer">Твой(я) [член ассоциации] 💌</p>
+    <div class="hearts">❤️ 💛 💚 💙 💜</div>
+  </div>
+</body>
+</html>
