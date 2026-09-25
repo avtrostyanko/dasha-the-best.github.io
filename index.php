@@ -130,7 +130,7 @@
     <p class="subtitle">Сегодня твой день, и этот сайт — только для тебя 💖</p>
 
     <div class="photos">
-      <img src="photo1.jpg" alt="Наше фото 1">
+      <img src="Zhadan_krug2.png" alt="Наше фото 1">
       <img src="photo2.jpg" alt="Наше фото 2">
       <img src="photo3.jpg" alt="Наше фото 3">
     </div>
